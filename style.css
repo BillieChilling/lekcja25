@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+img {
+    transform: scale(1.5);
+}
+
+table {
+    width: 1000px;
+    height: 100px;
+    border-collapse:collapse;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    transition: 0.3s;
+}
+
+tr {
+    height: 52px;
+}
+
+th {
+    background-color: #66BC7B;
+    color: #FFF;
+    font-size: 110%;
+    font-weight: 400;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    border-top: 1px solid lightgrey;
+}
+
+.summary {
+    font-weight: bold;
+    border-bottom: 1px solid lightgrey;
+}
+
+table:hover {
+    
+    margin-left: 5%;
+    
+}
+
